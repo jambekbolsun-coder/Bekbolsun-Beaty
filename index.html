@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f7d8e2" />
+  <meta name="description" content="Bekbolsun Beauty — премиальный концепт-сайт универсального салона красоты в Бишкеке: волосы, ногти, лицо, макияж и мужской уход." />
+  <meta name="keywords" content="салон красоты Бишкек, маникюр Бишкек, педикюр, барбершоп, макияж, уход за лицом, Bekbolsun Beauty" />
+  <meta property="og:title" content="Bekbolsun Beauty — beauty space в Бишкеке" />
+  <meta property="og:description" content="Все главные beauty-услуги в одном комфортном пространстве для женщин и мужчин." />
+  <meta property="og:image" content="assets/images/salon-main.webp" />
+  <meta property="og:type" content="website" />
+  <title>Bekbolsun Beauty — премиальный beauty space в Бишкеке</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preload" href="assets/images/salon-main.webp" as="image" type="image/webp" />
+  <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BeautySalon",
+    "name": "Bekbolsun Beauty",
+    "description": "Демонстрационный концепт премиального универсального салона красоты в Бишкеке.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Бишкек",
+      "addressCountry": "KG"
+    },
+    "telephone": "+996000000000"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader__mark">BB</div>
+    <p>BEKBOLSUN BEAUTY</p>
+    <span>beauty space · bishkek</span>
+  </div>
+
+  <div class="petals" id="petals" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Bekbolsun Beauty — на главную">
+        <span class="brand__monogram">BB</span>
+        <span class="brand__text">
+          <b>Bekbolsun Beauty</b>
+          <small>beauty space · bishkek</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Открыть меню">
+        <span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Основная навигация">
+        <a href="#services">Услуги</a>
+        <a href="#experience">Пространство</a>
+        <a href="#journey">Как всё проходит</a>
+        <a href="#founder">Основатель</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <button class="button button--small booking-trigger" type="button">Записаться</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__media" aria-hidden="true">
+        <img src="assets/images/salon-main.webp" alt="" width="1800" height="1201" fetchpriority="high" />
+      </div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <div class="hero__ornament hero__ornament--one" aria-hidden="true"></div>
+      <div class="hero__ornament hero__ornament--two" aria-hidden="true"></div>
+
+      <div class="container hero__content">
+        <div class="hero__copy reveal">
+          <p class="eyebrow"><span></span> Бишкек · женщины и мужчины</p>
+          <h1 id="hero-title">Красота, которую<br /><em>не нужно объяснять</em></h1>
+          <p class="hero__lead">Одно премиальное пространство, где волосы, ногти, кожа, макияж и мужской уход собираются в цельный образ — спокойно, точно и без суеты.</p>
+          <div class="hero__actions">
+            <button class="button booking-trigger" type="button">Подобрать услугу</button>
+            <a class="text-link" href="#experience">Почувствовать атмосферу <span>↘</span></a>
+          </div>
+          <div class="hero__proof">
+            <div class="proof-avatars" aria-hidden="true">
+              <span>А</span><span>М</span><span>Д</span><span>К</span><span>+16</span>
+            </div>
+            <p><b>20+ специалистов</b><br />по международным программам</p>
+          </div>
+        </div>
+
+        <aside class="hero-card reveal" aria-label="Ключевые преимущества">
+          <span class="hero-card__kicker">private beauty experience</span>
+          <p class="hero-card__number" data-counter="20">0</p>
+          <p class="hero-card__label">мастеров в одной команде</p>
+          <div class="hero-card__line"></div>
+          <ul>
+            <li>Оригинальное корейское оборудование</li>
+            <li>Стерилизация в несколько этапов</li>
+            <li>Персональный beauty-план</li>
+          </ul>
+          <span class="hero-card__note">Сайт-концепт для портфолио</span>
+        </aside>
+      </div>
+
+      <div class="hero__scroll" aria-hidden="true"><span></span> листайте</div>
+    </section>
+
+    <section class="trust-strip" aria-label="Ключевые показатели">
+      <div class="container trust-strip__grid">
+        <div><b>$10 000+</b><span>в комфорте и эргономике зон</span></div>
+        <div><b>20+</b><span>узких специалистов</span></div>
+        <div><b>7/7</b><span>запись без выходных</span></div>
+        <div><b>200+</b><span>салонов в глобальной модели бренда*</span></div>
+      </div>
+    </section>
+
+    <section class="section intro" id="experience">
+      <div class="container intro__grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow eyebrow--dark"><span></span> Не просто салон</p>
+          <h2>Пространство, где<br /><em>о вас уже подумали</em></h2>
+        </div>
+        <div class="intro__text reveal">
+          <p class="lead-copy">Bekbolsun Beauty задуман как спокойный beauty-клуб: без очередей, случайных решений и ощущения конвейера.</p>
+          <p>Администратор помнит ваши привычки, мастер видит общую картину, а каждая зона настроена так, чтобы вы могли выдохнуть. Приходите за одной процедурой — уходите с собранным образом и понятным планом дальнейшего ухода.</p>
+        </div>
+      </div>
+
+      <div class="container editorial-grid">
+        <figure class="editorial-card editorial-card--wide reveal">
+          <img src="assets/images/salon-stations.webp" alt="Светлая зона стилистов с зеркалами" width="1800" height="1190" loading="lazy" />
+          <figcaption><span>01</span> Свет, тишина и личное пространство</figcaption>
+        </figure>
+        <figure class="editorial-card editorial-card--tall reveal">
+          <img src="assets/images/salon-pink.webp" alt="Уютная зона ожидания в салоне" width="933" height="1400" loading="lazy" />
+          <figcaption><span>02</span> Комфорт до, во время и после</figcaption>
+        </figure>
+        <div class="editorial-quote reveal">
+          <span class="quote-mark">“</span>
+          <p>Премиальность — это когда вам не приходится просить о внимании.</p>
+          <small>Философия Bekbolsun Beauty</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-heading section-heading--center reveal">
+          <p class="eyebrow eyebrow--dark"><span></span> Всё в одном месте</p>
+          <h2>Соберите свой<br /><em>идеальный визит</em></h2>
+          <p>От одной точной услуги до полного преображения за один день.</p>
+        </div>
+
+        <div class="service-tabs reveal" role="tablist" aria-label="Фильтр услуг">
+          <button class="service-tab is-active" type="button" data-filter="all" role="tab" aria-selected="true">Все услуги</button>
+          <button class="service-tab" type="button" data-filter="women" role="tab" aria-selected="false">Для женщин</button>
+          <button class="service-tab" type="button" data-filter="men" role="tab" aria-selected="false">Для мужчин</button>
+          <button class="service-tab" type="button" data-filter="unisex" role="tab" aria-selected="false">Универсальные</button>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card reveal" data-category="women unisex">
+            <div class="service-card__top"><span>01</span><i>↗</i></div>
+            <h3>Hair Atelier</h3>
+            <p>Стрижки, окрашивание, укладки, восстановление и образ к событию.</p>
+            <small>от 1 800 сом · 60–180 мин</small>
+            <button type="button" class="card-link booking-trigger" data-service="Hair Atelier">Записаться</button>
+          </article>
+          <article class="service-card reveal" data-category="women unisex">
+            <div class="service-card__top"><span>02</span><i>↗</i></div>
+            <h3>Nail Couture</h3>
+            <p>Маникюр, укрепление, дизайн, smart-педикюр и уход для рук и стоп.</p>
+            <small>от 1 200 сом · 60–120 мин</small>
+            <button type="button" class="card-link booking-trigger" data-service="Nail Couture">Записаться</button>
+          </article>
+          <article class="service-card reveal" data-category="women unisex">
+            <div class="service-card__top"><span>03</span><i>↗</i></div>
+            <h3>Skin Rituals</h3>
+            <p>Диагностика кожи, уходы, чистка, массаж и программы сияния.</p>
+            <small>от 2 000 сом · 45–90 мин</small>
+            <button type="button" class="card-link booking-trigger" data-service="Skin Rituals">Записаться</button>
+          </article>
+          <article class="service-card reveal" data-category="women">
+            <div class="service-card__top"><span>04</span><i>↗</i></div>
+            <h3>Makeup Room</h3>
+            <p>Дневной, вечерний, свадебный макияж и экспресс-образ.</p>
+            <small>от 2 500 сом · 45–90 мин</small>
+            <button type="button" class="card-link booking-trigger" data-service="Makeup Room">Записаться</button>
+          </article>
+          <article class="service-card reveal" data-category="women unisex">
+            <div class="service-card__top"><span>05</span><i>↗</i></div>
+            <h3>Brow & Lash Lab</h3>
+            <p>Архитектура бровей, ламинирование, окрашивание и ресницы.</p>
+            <small>от 900 сом · 30–90 мин</small>
+            <button type="button" class="card-link booking-trigger" data-service="Brow & Lash Lab">Записаться</button>
+          </article>
+          <article class="service-card reveal" data-category="men">
+            <div class="service-card__top"><span>06</span><i>↗</i></div>
+            <h3>Gentlemen Club</h3>
+            <p>Мужская стрижка, борода, камуфляж седины, лицо и руки.</p>
+            <small>от 1 200 сом · 45–90 мин</small>
+            <button type="button" class="card-link booking-trigger" data-service="Gentlemen Club">Записаться</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split-showcase">
+      <div class="container split-showcase__grid">
+        <div class="split-showcase__media reveal">
+          <img src="assets/images/manicure.webp" alt="Процесс профессионального маникюра" width="1400" height="933" loading="lazy" />
+          <div class="floating-label">Nail Couture <span>↗</span></div>
+        </div>
+        <div class="split-showcase__copy reveal">
+          <p class="eyebrow eyebrow--dark"><span></span> Точность в деталях</p>
+          <h2>Красиво сейчас.<br /><em>Безопасно всегда.</em></h2>
+          <p>Инструменты проходят полный цикл очистки, дезинфекции и стерилизации. Одноразовые расходники открываются при госте, а рабочая поверхность готовится заново перед каждой процедурой.</p>
+          <div class="mini-features">
+            <div><b>01</b><span>Индивидуальный набор</span></div>
+            <div><b>02</b><span>Корейские аппараты</span></div>
+            <div><b>03</b><span>Контроль мастера-наставника</span></div>
+          </div>
+          <button class="text-button booking-trigger" type="button">Записаться на безопасный уход <span>→</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section journey" id="journey">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow eyebrow--dark"><span></span> Клиентская воронка</p>
+          <h2>12 шагов от идеи<br /><em>до вашего результата</em></h2>
+          <p>Ни один этап не оставлен на случайность — вы заранее понимаете, что будет происходить и сколько времени займёт визит.</p>
+        </div>
+
+        <div class="journey-layout">
+          <div class="journey-visual reveal">
+            <img src="assets/images/makeup-team.webp" alt="Команда визажистов работает с клиентом" width="787" height="1400" loading="lazy" />
+            <div class="journey-visual__badge"><b>1 визит</b><span>несколько специалистов</span></div>
+          </div>
+          <ol class="journey-list">
+            <li class="reveal"><span>01</span><div><h3>Вы формулируете цель</h3><p>Освежить образ, подготовиться к событию или просто восстановиться.</p></div></li>
+            <li class="reveal"><span>02</span><div><h3>Мини-диагностика онлайн</h3><p>Администратор задаёт несколько точных вопросов без длинной анкеты.</p></div></li>
+            <li class="reveal"><span>03</span><div><h3>Подбор мастера и времени</h3><p>Вас записывают не к свободному, а к подходящему специалисту.</p></div></li>
+            <li class="reveal"><span>04</span><div><h3>Личное приветствие</h3><p>Встречаем по имени, предлагаем напиток и помогаем переключиться.</p></div></li>
+            <li class="reveal"><span>05</span><div><h3>Консультация у зеркала</h3><p>Обсуждаем привычки, ожидания и то, что точно не хочется менять.</p></div></li>
+            <li class="reveal"><span>06</span><div><h3>Диагностика</h3><p>Смотрим состояние волос, кожи или ногтей и оцениваем ограничения.</p></div></li>
+            <li class="reveal"><span>07</span><div><h3>План и фиксированная цена</h3><p>Согласовываем этапы, материалы, время и итоговую стоимость заранее.</p></div></li>
+            <li class="reveal"><span>08</span><div><h3>Подготовка и гигиена</h3><p>Открываем расходники, готовим зону и защищаем ваши вещи.</p></div></li>
+            <li class="reveal"><span>09</span><div><h3>Основная процедура</h3><p>Работаем спокойно, с промежуточными согласованиями без сюрпризов.</p></div></li>
+            <li class="reveal"><span>10</span><div><h3>Финальная проверка</h3><p>Мастер оценивает результат при разном свете и исправляет нюансы.</p></div></li>
+            <li class="reveal"><span>11</span><div><h3>Домашняя памятка</h3><p>Вы получаете простые рекомендации, а не список ненужных покупок.</p></div></li>
+            <li class="reveal"><span>12</span><div><h3>Забота после визита</h3><p>Через несколько дней уточняем впечатления и сохраняем вашу формулу.</p></div></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="section masters">
+      <div class="container">
+        <div class="masters__top">
+          <div class="section-heading reveal">
+            <p class="eyebrow eyebrow--dark"><span></span> Команда</p>
+            <h2>20 характеров.<br /><em>Один стандарт.</em></h2>
+          </div>
+          <p class="reveal">Каждый мастер отвечает за своё направление, но работает внутри общей методики сервиса, безопасности и эстетики Bekbolsun Beauty.</p>
+        </div>
+
+        <div class="master-marquee" aria-label="Направления специалистов">
+          <div class="master-track">
+            <span>Colorist</span><i>✦</i><span>Nail Artist</span><i>✦</i><span>Barber</span><i>✦</i><span>Makeup Artist</span><i>✦</i><span>Esthetician</span><i>✦</i><span>Brow Master</span><i>✦</i><span>Hair Stylist</span><i>✦</i><span>Pedicure Expert</span><i>✦</i>
+            <span>Colorist</span><i>✦</i><span>Nail Artist</span><i>✦</i><span>Barber</span><i>✦</i><span>Makeup Artist</span><i>✦</i><span>Esthetician</span><i>✦</i><span>Brow Master</span><i>✦</i><span>Hair Stylist</span><i>✦</i><span>Pedicure Expert</span><i>✦</i>
+          </div>
+        </div>
+
+        <div class="team-standard">
+          <article class="reveal"><span>01</span><h3>Сильная база</h3><p>Обучение по международным программам и регулярные внутренние аттестации.</p></article>
+          <article class="reveal"><span>02</span><h3>Честная консультация</h3><p>Мастер может отказаться от процедуры, если она навредит или не даст обещанный эффект.</p></article>
+          <article class="reveal"><span>03</span><h3>Общий вкус</h3><p>Мы не копируем тренды буквально — адаптируем их под лицо, стиль и ритм жизни.</p></article>
+          <article class="reveal"><span>04</span><h3>Работа в команде</h3><p>Сложный образ собирают несколько мастеров по единому плану.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gender-showcase">
+      <div class="container gender-showcase__grid">
+        <article class="gender-card reveal">
+          <img src="assets/images/hair-styling.webp" alt="Профессиональная укладка волос" width="1400" height="1000" loading="lazy" />
+          <div class="gender-card__content">
+            <span>FOR HER</span>
+            <h3>Не менять себя.<br />Подчеркнуть себя.</h3>
+            <button class="button button--light booking-trigger" type="button" data-service="Комплекс для неё">Выбрать образ</button>
+          </div>
+        </article>
+        <article class="gender-card reveal">
+          <img src="assets/images/barber.webp" alt="Мужская стрижка в салоне" width="1400" height="933" loading="lazy" />
+          <div class="gender-card__content">
+            <span>FOR HIM</span>
+            <h3>Уход без лишних<br />слов и ожидания.</h3>
+            <button class="button button--light booking-trigger" type="button" data-service="Комплекс для него">Выбрать уход</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section inspiration">
+      <div class="container">
+        <div class="section-heading section-heading--center reveal">
+          <p class="eyebrow eyebrow--dark"><span></span> Global moodboard</p>
+          <h2>10 мировых образов,<br /><em>которые нас вдохновляют</em></h2>
+          <p>Мы изучаем эстетику красных дорожек и street style, но каждый образ адаптируем лично под гостя.</p>
+        </div>
+
+        <div class="inspiration-grid">
+          <article class="inspiration-card reveal"><span>01</span><h3>Zendaya</h3><p>Архитектурные укладки и точный баланс моды и лица.</p></article>
+          <article class="inspiration-card reveal"><span>02</span><h3>Rihanna</h3><p>Смелый цвет, сияющая кожа и уверенная индивидуальность.</p></article>
+          <article class="inspiration-card reveal"><span>03</span><h3>Hailey Bieber</h3><p>Clean girl, натуральная кожа и лаконичный nail-образ.</p></article>
+          <article class="inspiration-card reveal"><span>04</span><h3>Bella Hadid</h3><p>Графичные детали и современный ретро-гламур.</p></article>
+          <article class="inspiration-card reveal"><span>05</span><h3>Dua Lipa</h3><p>Выразительный макияж и эксперименты с волосами.</p></article>
+          <article class="inspiration-card reveal"><span>06</span><h3>Jennie Kim</h3><p>Корейская точность, мягкие текстуры и сияние.</p></article>
+          <article class="inspiration-card reveal"><span>07</span><h3>David Beckham</h3><p>Выверенная мужская классика и аккуратная борода.</p></article>
+          <article class="inspiration-card reveal"><span>08</span><h3>Timothée Chalamet</h3><p>Естественная текстура и непринуждённый стайлинг.</p></article>
+          <article class="inspiration-card reveal"><span>09</span><h3>Bad Bunny</h3><p>Смелый мужской nail-art и свобода самовыражения.</p></article>
+          <article class="inspiration-card reveal"><span>10</span><h3>Kim Kardashian</h3><p>Монолитный образ, контур и идеально собранные детали.</p></article>
+        </div>
+        <p class="legal-note reveal">Имена используются только как визуальные ориентиры и не означают сотрудничество или посещение салона.</p>
+      </div>
+    </section>
+
+    <section class="section founder" id="founder">
+      <div class="container founder__grid">
+        <div class="founder__portrait reveal">
+          <div class="founder__frame">
+            <img src="assets/images/founder.webp" alt="Основатель Bekbolsun Beauty Жамшутов Бекболсун Ринатович" width="718" height="1080" loading="lazy" />
+          </div>
+          <span class="founder__signature">Bekbolsun</span>
+        </div>
+        <div class="founder__copy reveal">
+          <p class="eyebrow eyebrow--dark"><span></span> Founder’s note</p>
+          <h2>Жамшутов<br /><em>Бекболсун Ринатович</em></h2>
+          <blockquote>«Я хотел создать место, куда человек приходит не исправлять себя, а почувствовать себя собраннее, спокойнее и увереннее».</blockquote>
+          <p>В основе Bekbolsun Beauty — простая идея: профессионализм должен быть заметен не по громким словам, а по деталям. По тому, как вас встретили. Как мастер задаёт вопросы. Как подготовлено место. Как вы чувствуете себя через неделю после процедуры.</p>
+          <p>Поэтому мы строим не набор кабинетов, а единую beauty-систему: сильная команда, общий стандарт и сервис, который уважает ваше время.</p>
+          <div class="founder__meta">
+            <div><b>Founder</b><span>Bekbolsun Beauty</span></div>
+            <div><b>Marketing partner</b><span>SMM KADR · full cycle</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section quality">
+      <div class="container quality__grid">
+        <div class="quality__copy reveal">
+          <p class="eyebrow"><span></span> Korean beauty technology</p>
+          <h2>Оригинальные<br /><em>аппараты и материалы</em></h2>
+          <p>В концепции салона используются сертифицированные корейские аппараты, профессиональные составы и точные инструменты. Для каждой процедуры мастер подбирает режим и продукт индивидуально, а не работает по одному шаблону.</p>
+          <ul>
+            <li><span>01</span> Проверка поставщика и маркировки</li>
+            <li><span>02</span> Контроль сроков и условий хранения</li>
+            <li><span>03</span> Протоколы для чувствительной кожи</li>
+            <li><span>04</span> Карта использованных продуктов</li>
+          </ul>
+        </div>
+        <div class="quality__media reveal">
+          <img src="assets/images/facial.webp" alt="Профессиональный уход за лицом" width="933" height="1400" loading="lazy" />
+          <div class="quality__seal"><span>ORIGINAL</span><b>K-BEAUTY</b><small>verified care</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow eyebrow--dark"><span></span> Пример блока доверия</p>
+          <h2>После визита<br /><em>говорят именно так</em></h2>
+        </div>
+        <div class="testimonial-slider reveal" aria-label="Демонстрационные отзывы клиентов">
+          <button class="slider-button slider-button--prev" type="button" aria-label="Предыдущий отзыв">←</button>
+          <div class="testimonial-track">
+            <article class="testimonial is-active">
+              <div class="stars">★★★★★</div>
+              <blockquote>«Впервые мастер не начал сразу красить, а сначала объяснил, что будет лучше для моих волос. Цвет выглядит дорого и спокойно — именно то, что я не могла сформулировать».</blockquote>
+              <div><b>Айдана, 29</b><span>окрашивание + уход</span></div>
+            </article>
+            <article class="testimonial">
+              <div class="stars">★★★★★</div>
+              <blockquote>«Записался на стрижку, а в итоге за один визит привели в порядок волосы, бороду и руки. Всё без пафоса, быстро и очень аккуратно».</blockquote>
+              <div><b>Нурсултан, 34</b><span>gentlemen complex</span></div>
+            </article>
+            <article class="testimonial">
+              <div class="stars">★★★★★</div>
+              <blockquote>«Мы собирались на мероприятие втроём. Нам составили расписание так, что никто не ждал. Макияж, волосы и ногти закончились почти одновременно».</blockquote>
+              <div><b>Элина, 26</b><span>event beauty day</span></div>
+            </article>
+          </div>
+          <button class="slider-button slider-button--next" type="button" aria-label="Следующий отзыв">→</button>
+        </div>
+        <p class="legal-note">Отзывы в этом портфолио-макете являются демонстрационными.</p>
+      </div>
+    </section>
+
+    <section class="section booking" id="booking">
+      <div class="container booking__shell">
+        <div class="booking__copy reveal">
+          <p class="eyebrow"><span></span> Ваш визит начинается здесь</p>
+          <h2>Расскажите,<br /><em>какого результата хотите</em></h2>
+          <p>Администратор свяжется, уточнит детали и предложит подходящего мастера, время и понятный бюджет.</p>
+          <div class="booking__contacts">
+            <a href="tel:+996000000000">+996 000 000 000</a>
+            <a href="mailto:hello@bekbolsun.beauty">hello@bekbolsun.beauty</a>
+            <span>Бишкек · центр · адрес уточняется</span>
+          </div>
+        </div>
+
+        <form class="booking-form reveal" id="booking-form" novalidate>
+          <div class="form-row">
+            <label>
+              <span>Ваше имя</span>
+              <input type="text" name="name" autocomplete="name" placeholder="Как к вам обращаться?" required />
+            </label>
+            <label>
+              <span>Телефон</span>
+              <input type="tel" name="phone" autocomplete="tel" placeholder="+996 ___ ___ ___" required />
+            </label>
+          </div>
+          <label>
+            <span>Что вас интересует?</span>
+            <select name="service" id="service-select" required>
+              <option value="">Выберите направление</option>
+              <option>Hair Atelier</option>
+              <option>Nail Couture</option>
+              <option>Skin Rituals</option>
+              <option>Makeup Room</option>
+              <option>Brow & Lash Lab</option>
+              <option>Gentlemen Club</option>
+              <option>Полный beauty-day</option>
+            </select>
+          </label>
+          <div class="form-row">
+            <label>
+              <span>Желаемая дата</span>
+              <input type="date" name="date" id="booking-date" required />
+            </label>
+            <label>
+              <span>Удобное время</span>
+              <select name="time" required>
+                <option value="">Выберите время</option>
+                <option>Утро · 09:00–12:00</option>
+                <option>День · 12:00–17:00</option>
+                <option>Вечер · 17:00–21:00</option>
+              </select>
+            </label>
+          </div>
+          <label>
+            <span>Комментарий</span>
+            <textarea name="message" rows="4" placeholder="Например: хочу собрать полный образ к мероприятию"></textarea>
+          </label>
+          <label class="consent">
+            <input type="checkbox" required />
+            <span>Согласен(на) на обработку данных для обратной связи</span>
+          </label>
+          <button class="button button--full" type="submit">Получить подбор</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section faq" id="faq">
+      <div class="container faq__grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow eyebrow--dark"><span></span> Частые вопросы</p>
+          <h2>Всё, что важно<br /><em>знать до визита</em></h2>
+        </div>
+        <div class="accordion reveal">
+          <article class="accordion-item is-open">
+            <button type="button" aria-expanded="true"><span>Можно ли сделать несколько услуг одновременно?</span><i>−</i></button>
+            <div class="accordion-panel"><p>Да. Администратор собирает персональное расписание и подключает нескольких мастеров, чтобы сократить общее время визита.</p></div>
+          </article>
+          <article class="accordion-item">
+            <button type="button" aria-expanded="false"><span>Как выбирается мастер?</span><i>+</i></button>
+            <div class="accordion-panel"><p>По вашему запросу, истории процедур, желаемому стилю и сложности работы. Мы не назначаем мастера случайно.</p></div>
+          </article>
+          <article class="accordion-item">
+            <button type="button" aria-expanded="false"><span>Работаете ли вы с мужчинами?</span><i>+</i></button>
+            <div class="accordion-panel"><p>Да. В Gentlemen Club входят стрижки, борода, камуфляж седины, уход за лицом, руками и стопами.</p></div>
+          </article>
+          <article class="accordion-item">
+            <button type="button" aria-expanded="false"><span>Можно прийти со своей идеей или референсом?</span><i>+</i></button>
+            <div class="accordion-panel"><p>Конечно. Мастер разберёт референс и честно скажет, как адаптировать его под ваши данные и состояние волос, кожи или ногтей.</p></div>
+          </article>
+          <article class="accordion-item">
+            <button type="button" aria-expanded="false"><span>Как подтверждается запись?</span><i>+</i></button>
+            <div class="accordion-panel"><p>После согласования времени администратор отправляет подтверждение. Для длительных комплексов может понадобиться предоплата.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__top">
+      <div>
+        <a class="brand brand--footer" href="#top">
+          <span class="brand__monogram">BB</span>
+          <span class="brand__text"><b>Bekbolsun Beauty</b><small>beauty space · bishkek</small></span>
+        </a>
+        <p>Премиальный универсальный beauty space для женщин и мужчин.</p>
+      </div>
+      <div class="footer__links">
+        <div><b>Навигация</b><a href="#services">Услуги</a><a href="#journey">Процесс</a><a href="#founder">Основатель</a></div>
+        <div><b>Контакты</b><a href="tel:+996000000000">+996 000 000 000</a><a href="mailto:hello@bekbolsun.beauty">Email</a><a href="#booking">Записаться</a></div>
+        <div><b>Соцсети</b><a href="#" aria-label="Instagram — демо-ссылка">Instagram</a><a href="#" aria-label="TikTok — демо-ссылка">TikTok</a><a href="#" aria-label="WhatsApp — демо-ссылка">WhatsApp</a></div>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <span>© 2026 Bekbolsun Beauty. Концепт для портфолио.</span>
+      <span>* Статистика сети, цены, отзывы и контакты используются как демонстрационный контент и требуют замены на подтверждённые данные перед публикацией.</span>
+    </div>
+  </footer>
+
+  <div class="booking-modal" id="booking-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <div class="booking-modal__backdrop" data-close-modal></div>
+    <div class="booking-modal__panel">
+      <button class="modal-close" type="button" data-close-modal aria-label="Закрыть окно">×</button>
+      <div class="modal-progress"><span class="is-active"></span><span></span><span></span></div>
+      <form id="modal-form" novalidate>
+        <section class="modal-step is-active" data-step="1">
+          <p class="eyebrow eyebrow--dark"><span></span> Шаг 1 из 3</p>
+          <h2 id="modal-title">Какой результат вы хотите?</h2>
+          <div class="choice-grid">
+            <label><input type="radio" name="goal" value="Освежить образ" required /><span>Освежить образ<small>Небольшие, но заметные изменения</small></span></label>
+            <label><input type="radio" name="goal" value="Полное преображение" /><span>Полное преображение<small>Несколько услуг за один визит</small></span></label>
+            <label><input type="radio" name="goal" value="Подготовка к событию" /><span>Подготовка к событию<small>Волосы, макияж, ногти</small></span></label>
+            <label><input type="radio" name="goal" value="Регулярный уход" /><span>Регулярный уход<small>Составим персональный график</small></span></label>
+          </div>
+          <button class="button button--full modal-next" type="button">Продолжить</button>
+        </section>
+        <section class="modal-step" data-step="2">
+          <p class="eyebrow eyebrow--dark"><span></span> Шаг 2 из 3</p>
+          <h2>Что добавить в визит?</h2>
+          <div class="check-grid">
+            <label><input type="checkbox" name="modal_service" value="Волосы" /><span>Волосы</span></label>
+            <label><input type="checkbox" name="modal_service" value="Маникюр" /><span>Маникюр</span></label>
+            <label><input type="checkbox" name="modal_service" value="Педикюр" /><span>Педикюр</span></label>
+            <label><input type="checkbox" name="modal_service" value="Макияж" /><span>Макияж</span></label>
+            <label><input type="checkbox" name="modal_service" value="Лицо" /><span>Уход за лицом</span></label>
+            <label><input type="checkbox" name="modal_service" value="Мужской уход" /><span>Мужской уход</span></label>
+          </div>
+          <div class="modal-nav"><button class="text-button modal-prev" type="button">← Назад</button><button class="button modal-next" type="button">Продолжить</button></div>
+        </section>
+        <section class="modal-step" data-step="3">
+          <p class="eyebrow eyebrow--dark"><span></span> Шаг 3 из 3</p>
+          <h2>Куда отправить подбор?</h2>
+          <label class="modal-field"><span>Имя</span><input type="text" name="modal_name" placeholder="Ваше имя" required /></label>
+          <label class="modal-field"><span>Телефон</span><input type="tel" name="modal_phone" placeholder="+996 ___ ___ ___" required /></label>
+          <div class="modal-nav"><button class="text-button modal-prev" type="button">← Назад</button><button class="button" type="submit">Получить подбор</button></div>
+          <p class="form-status" id="modal-status" role="status" aria-live="polite"></p>
+        </section>
+      </form>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">Заявка принята. Это демо — подключите реальную форму перед публикацией.</div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
